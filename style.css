@@ -150,7 +150,10 @@ button {
   background: rgba(255,255,255,0.15);
   backdrop-filter: blur(10px);
 }
-
+.wish-tag:hover{
+  background-color: rgb(6, 20, 28);
+  color: rgb(172, 172, 232);
+}
 @keyframes smoothSlide {
   0% { opacity: 0; transform: scale(0.98); }
   8% { opacity: 1; }
